@@ -1,8 +1,10 @@
+"use cli";
+
 import styled from "styled-components";
 
 export const ProductsS = styled.div`
   height: 300px;
-  width: 100vw;
+  width: 100%;
   background-color: green;
   display: flex;
   align-items: center;
@@ -16,7 +18,7 @@ export const Product = styled.div`
   background-color: ${({ color }) => (color ? color : "black")};
   display: flex;
   justify-content: center;
-  gap: 40px
+  gap: 40px;
 `;
 
 export const ProductImg = styled.img`

@@ -1,13 +1,15 @@
+"use cli";
+
 import styled from "styled-components";
 
 export const BannerS = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 70px;
   background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px
+  gap: 100px;
 `;
 
 export const BannerInfo = styled.div`
