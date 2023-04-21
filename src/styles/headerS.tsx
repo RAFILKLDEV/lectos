@@ -1,4 +1,5 @@
 "use cli";
+import { blue } from "@/colors";
 import styled from "styled-components";
 
 export const HeaderS = styled.div`
@@ -11,7 +12,7 @@ export const HeaderS = styled.div`
 `;
 
 export const HeaderLogo = styled.img`
-  height: 80px;
+  height: 100px;
   justify-self: flex-start;
 `;
 
@@ -23,8 +24,24 @@ export const HeaderBar = styled.div`
 `;
 
 export const HeaderLink = styled.button`
+  color: ${blue};
+  font-size: 20px;
+  height: 30px;
   background-color: inherit;
   border: none;
-  color: black;
-  font-size: 18px;
+
+  a {
+    text-decoration: none;
+    color: ${blue};
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+`;
+
+export const HeaderShape = styled.div`
+  background-color: blue;
+  height: 100px;
 `;

@@ -1,9 +1,10 @@
 "use cli";
 
 import styled from "styled-components";
+import { blue } from "@/colors";
 
 export const MenuS = styled.div`
-  background-color: blue;
+  background-color: ${blue};
   height: 80px;
   width: 100%;
   display: flex;
@@ -18,4 +19,14 @@ export const MenuButton = styled.button`
   height: 30px;
   background-color: inherit;
   border: none;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
 `;

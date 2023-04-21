@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const ProductsS = styled.div`
   height: 300px;
   width: 100%;
-  background-color: green;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;

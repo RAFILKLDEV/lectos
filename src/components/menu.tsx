@@ -10,9 +10,15 @@ export function Menu() {
       <MenuButton>
         <Link href={"/clinic"}>Lectos Clinico</Link>
       </MenuButton>
-      <MenuButton>Lectos Pedagógico</MenuButton>
-      <MenuButton>Lectos Altas Habilidades</MenuButton>
-      <MenuButton>Sobre Lectos</MenuButton>
+      <MenuButton>
+        <Link href={"/"}>Lectos Pedagógico</Link>
+      </MenuButton>
+      <MenuButton>
+        <Link href={"/"}>Lectos Altas Habilidades</Link>
+      </MenuButton>
+      <MenuButton>
+        <Link href={"/"}>Sobre nós</Link>
+      </MenuButton>
     </MenuS>
   );
 }
