@@ -4,7 +4,6 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Menu } from "@/components/menu";
 import { Products } from "@/components/products";
-import { BannerS } from "@/styles/bannerS";
 import { GlobalStyle } from "@/styles/globalStyles";
 import Head from "next/head";
 

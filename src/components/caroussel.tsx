@@ -26,14 +26,12 @@ export function Caroussel() {
       } else if (img === photos[2]) {
         setImg(photos[0]);
       }
-
-      timerImg();
-    }, 5000);
+    }, 2000);
   }
 
   useEffect(() => {
     timerImg();
-  });
+  }, [img]);
   return (
     <CarousselS>
       <CarousselImg src={img} />

@@ -3,7 +3,7 @@
 import styled from "styled-components";
 
 export const CarousselS = styled.div`
-  height: 400px;
+  height: 600px;
   width: 100%;
   background-color: yellow;
   position: relative;
