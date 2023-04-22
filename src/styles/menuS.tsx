@@ -26,7 +26,20 @@ export const MenuButton = styled.button`
   }
 
   a:hover {
-    text-decoration: underline;
-    text-underline-offset: 10px;
+    @keyframes go-back {
+      0% {
+        text-decoration: underline;
+        text-underline-offset: 6px;
+        text-decoration-thickness: 4px;
+      }
+      100% {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 2px;
+      }
+    }
+    animation-name: go-back;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
   }
 `;
