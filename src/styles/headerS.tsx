@@ -40,12 +40,10 @@ export const HeaderLink = styled.button`
       0% {
         text-decoration: underline;
         text-underline-offset: 6px;
-        text-decoration-thickness: 4px;
       }
       100% {
         text-decoration: underline;
         text-underline-offset: 10px;
-        text-decoration-thickness: 2px;
       }
     }
     animation-name: go-back;
