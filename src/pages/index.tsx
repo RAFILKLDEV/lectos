@@ -12,8 +12,6 @@ export default function Home() {
     <>
       <Head>
         <title>Lectos - Laboratório de Aprendizagem</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
       <GlobalStyle />
       <Header />

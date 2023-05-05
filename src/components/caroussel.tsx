@@ -17,6 +17,10 @@ export function Caroussel() {
 
   const [img, setImg] = useState(photos[0]);
 
+  function CarouselImgs() {
+    return <CarousselImg src={img} />;
+  }
+
   function timerImg() {
     setTimeout(() => {
       if (img === photos[0]) {
@@ -26,17 +30,18 @@ export function Caroussel() {
       } else if (img === photos[2]) {
         setImg(photos[0]);
       }
-    }, 2000);
+    }, 5000);
   }
 
   useEffect(() => {
     timerImg();
   }, [img]);
+
   return (
     <CarousselS>
-      <CarousselImg src={img} />
-      <CarousselArrowRight>{">"}</CarousselArrowRight>
-      <CarousselArrowLeft>{"<"}</CarousselArrowLeft>
+      <CarouselImgs></CarouselImgs>
+      {/* <CarousselArrowRight>{">"}</CarousselArrowRight>
+      <CarousselArrowLeft>{"<"}</CarousselArrowLeft> */}
     </CarousselS>
   );
 }

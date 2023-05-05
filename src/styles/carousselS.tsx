@@ -1,12 +1,13 @@
 "use cli";
 
+import { Component } from "react";
 import styled from "styled-components";
 
 export const CarousselS = styled.div`
   height: 600px;
   width: 100%;
-  background-color: yellow;
   position: relative;
+  background-color: white;
 `;
 
 export const CarousselArrowLeft = styled.button`
@@ -36,4 +37,15 @@ export const CarousselArrowRight = styled.button`
 export const CarousselImg = styled.img`
   height: 100%;
   width: 100%;
+  animation-name: transition;
+  animation-duration: 1s;
+
+  @keyframes transition {
+    0% {
+      opacity: 70%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
 `;
