@@ -8,21 +8,27 @@ import {
 
 export function ProductMarketing() {
   return (
+    <>
     <ProductMarketingS>
       <ProductMarketingBar>
-        <ProductMarketingTitle>Teste pika</ProductMarketingTitle>
+        <ProductMarketingTitle>Lectos Clinico</ProductMarketingTitle>
         <ProductMarketingText>
-          Sim, é possível. A Tutores desenvolveu material exclusivo com esse
-          objetivo. São cursos livres, de curta duração, indicados para os
-          alunos que estão em busca de organização nos estudos, dicas de como
-          estudar para as provas e estratégias para se sair bem em todos os
-          aspectos que envolvem o dia a dia do estudante. Os cursos visam
-          despertar no aluno o gosto pelo estudo, a autonomia e a autoconfiança.
-          Nossos alunos se desenvolvem de forma integral e transversal, isso é,
-          as técnicas aprendidas favorecem todas as matérias do currículo.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
         </ProductMarketingText>
       </ProductMarketingBar>
-      <ProductMarketingImg src="https://i.ytimg.com/vi/CaUlFDHRHZM/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCy2bigHxnm0Ti3bYqwSJplFtcZcw"/>
+      <ProductMarketingImg src="https://blog.portalpos.com.br/app/uploads/2021/03/Menina-jovem-aparentemente-se-consultando-com-uma-psicologa-ou-pedagoga-1024x683.jpg" />
     </ProductMarketingS>
+    <ProductMarketingS>
+      
+    </ProductMarketingS>
+    </>
   );
 }
