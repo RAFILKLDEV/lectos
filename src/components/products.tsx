@@ -8,7 +8,14 @@ import {
 export function Products() {
   return (
     <>
-
+      <div style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: "50px",
+      }}>
+        <img src="Imgs/Logo.png" />
+      </div>
       <ProductsS>
         <Product>
           <ProductImg src="imgs\Leitura.png" />

@@ -5,7 +5,7 @@ export function Header() {
   return (
     <>
       <HeaderS>
-        <HeaderLogo src="https://media.discordapp.net/attachments/931731406118342676/1098290012946174035/image.png" />
+        <HeaderLogo src="imgs/logo.png" />
         <HeaderBar>
           <HeaderLink>
             <Link href={"/"}>Para Colaboradores</Link>

@@ -12,7 +12,7 @@ export const HeaderS = styled.div`
 `;
 
 export const HeaderLogo = styled.img`
-  height: 100px;
+  height: 55px;
   justify-self: flex-start;
 `;
 

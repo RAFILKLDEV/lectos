@@ -9,7 +9,7 @@ import {
 export function ProductMarketing() {
   return (
     <>
-    <ProductMarketingS>
+    <ProductMarketingS border={"bot"}>
       <ProductMarketingBar>
         <ProductMarketingTitle>Lectos Clinico</ProductMarketingTitle>
         <ProductMarketingText>
@@ -26,7 +26,7 @@ export function ProductMarketing() {
       </ProductMarketingBar>
       <ProductMarketingImg src="https://blog.portalpos.com.br/app/uploads/2021/03/Menina-jovem-aparentemente-se-consultando-com-uma-psicologa-ou-pedagoga-1024x683.jpg" />
     </ProductMarketingS>
-    <ProductMarketingS>
+    <ProductMarketingS border="bot">
       
     </ProductMarketingS>
     </>

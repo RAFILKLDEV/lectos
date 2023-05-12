@@ -8,13 +8,13 @@ export function Menu() {
         <Link href={"/"}>Inicio</Link>
       </MenuButton>
       <MenuButton>
-        <Link href={"/clinic"}>Lectos Clinico</Link>
+        <Link href={"/clinic"}>Departamento Clinico</Link>
       </MenuButton>
       <MenuButton>
-        <Link href={"/"}>Lectos Pedagógico</Link>
+        <Link href={"/"}>Departamento Pedagógico</Link>
       </MenuButton>
       <MenuButton>
-        <Link href={"/"}>Lectos Altas Habilidades</Link>
+        <Link href={"/"}>Departamento Altas Habilidades</Link>
       </MenuButton>
       <MenuButton>
         <Link href={"/"}>Sobre nós</Link>
