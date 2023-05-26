@@ -17,7 +17,7 @@ export function Menu() {
         <Link href={"/"}>Departamento Altas Habilidades</Link>
       </MenuButton>
       <MenuButton>
-        <Link href={"/"}>Sobre nós</Link>
+        <Link href={"/lectos"}>Sobre nós</Link>
       </MenuButton>
     </MenuS>
   );

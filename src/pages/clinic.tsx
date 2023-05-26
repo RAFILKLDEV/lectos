@@ -8,7 +8,7 @@ export default function Clinic() {
   return (
     <>
       <Head>
-        <title>Lectos Clinico</title>
+        <title>Departamento Clinico</title>
       </Head>
       <GlobalStyle />
       <Header />

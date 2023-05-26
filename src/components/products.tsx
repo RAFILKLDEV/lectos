@@ -2,21 +2,18 @@ import {
   Product,
   ProductImg,
   ProductTitle,
+  ProductsBar,
   ProductsS,
 } from "@/styles/products";
+import Image from "next/image";
 
 export function Products() {
   return (
     <>
-      <div style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-        marginTop: "50px",
-      }}>
-        <img src="Imgs/Logo.png" />
-      </div>
       <ProductsS>
+        <Image alt="Lectos" src={"/imgs/Logo.png"} width={600} height={200} />
+        <ProductsBar>
+
         <Product>
           <ProductImg src="imgs\Leitura.png" />
           <ProductTitle fontSize="">Leitura</ProductTitle>
@@ -41,6 +38,7 @@ export function Products() {
           <ProductImg src="imgs\Socialização.png" />
           <ProductTitle fontSize="">Socialização</ProductTitle>
         </Product>
+        </ProductsBar>
       </ProductsS>
     </>
   );

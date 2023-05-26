@@ -1,4 +1,4 @@
-import { BannerButton, BannerInfo, BannerS } from "@/styles/bannerS";
+import { BannerInfo, BannerS } from "@/styles/bannerS";
 
 export function Footer() {
   return (

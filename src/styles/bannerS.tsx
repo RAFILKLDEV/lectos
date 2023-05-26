@@ -5,12 +5,24 @@ import styled from "styled-components";
 
 export const BannerS = styled.div`
   width: 100%;
-  height: 70px;
+  height: 100px;
   background-color: ${blue};
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 100px;
+  clip-path: polygon(
+    50% 19%,
+    64% 22%,
+    78% 26%,
+    90% 30%,
+    100% 35%,
+    100% 100%,
+    0 100%,
+    0 14%,
+    18% 15%,
+    35% 16%
+  );
 `;
 
 export const BannerInfo = styled.div`

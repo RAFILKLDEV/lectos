@@ -1,13 +1,14 @@
 "use cli";
 
-import { Component } from "react";
 import styled from "styled-components";
 
 export const CarousselS = styled.div`
-  height: 600px;
+  height: 500px;
   width: 100%;
-  position: relative;
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const CarousselArrowLeft = styled.button`
@@ -35,8 +36,8 @@ export const CarousselArrowRight = styled.button`
 `;
 
 export const CarousselImg = styled.img`
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 888px;
   animation-name: transition;
   animation-duration: 1s;
 

@@ -7,7 +7,15 @@ export const ProductsS = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  margin-top: 50px;
+  flex-direction: column;
+  gap: 50px;
+  height: 500px;
+  margin: 0px;
+`;
+
+export const ProductsBar = styled.div`
+  display: flex;
 `;
 
 export const ProductTitle = styled.div`
@@ -18,6 +26,11 @@ export const ProductTitle = styled.div`
   font-size: ${({ fontSize }: { fontSize: string }) =>
     fontSize ? fontSize : "20px"};
   padding: 20px;
+
+  &::let {
+    text-decoration: underline;
+    font-size: 50;
+  }
 `;
 
 export const Product = styled.div`
