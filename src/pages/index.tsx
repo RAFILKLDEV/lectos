@@ -15,7 +15,7 @@ export default function Home() {
       <GlobalStyle />
       <Header />
       <Menu />
-      {/* <Caroussel /> */}
+      <Caroussel />
       <ProductsHome />
       <Footer />
     </>
