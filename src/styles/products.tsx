@@ -1,5 +1,6 @@
 "use cli";
 
+import { blue } from "@/colors";
 import styled from "styled-components";
 
 export const ProductsS = styled.div`
@@ -48,3 +49,34 @@ export const ProductImg = styled.img`
   border-radius: 50%;
   padding: 20px;
 `;
+
+export const ProductDesc = styled.div`
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 200px;
+  gap: 20px;
+`
+
+export const ProductDescParagrath = styled.p`
+`
+
+export const ProductDescTitle = styled.div`
+  font-size: 26px;
+  font-weight: 600;
+`
+export const ProductDescDetail = styled.div`
+  width: 100px;
+  background-color: ${blue};
+`
+
+export const ProductDescBar = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`
+
+export const ProductDescImg = styled.img`
+  
+`
