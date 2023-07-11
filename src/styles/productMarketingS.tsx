@@ -26,6 +26,17 @@ export const ProductMarketingBar = styled.div`
   flex-direction: column;
   justify-content: center;
   height: 300px;
+  display: inline-block;
+  padding-bottom: 30px;
+  opacity: 0%;
+  animation: aparecer 1s ease-in forwards;
+
+  @keyframes aparecer {
+  to {
+    opacity: 100%;
+    padding-bottom: 0px;
+  }
+}
 `;
 
 export const ProductMarketingTitle = styled.h4`
@@ -41,4 +52,15 @@ export const ProductMarketingText = styled.p`
 export const ProductMarketingImg = styled.img`
   height: 300px;
   width: 400px;
+  padding-bottom: 30px;
+  opacity: 0%;
+  animation: aparecer 1s ease-in forwards;
+
+  @keyframes aparecer {
+  to {
+    opacity: 100%;
+    padding-bottom: 0px;
+  }
+}
+  
 `;

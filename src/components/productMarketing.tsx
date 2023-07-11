@@ -5,8 +5,12 @@ import {
   ProductMarketingText,
   ProductMarketingTitle,
 } from "@/styles/productMarketingS";
+import { useRef } from "react";
 
 export function ProductMarketing() {
+
+  const ref = useRef()
+
   return (
     <>
       <ProductMarketingS border={"bot"}>
@@ -26,7 +30,7 @@ export function ProductMarketing() {
         </ProductMarketingBar>
         <ProductMarketingImg src="https://blog.portalpos.com.br/app/uploads/2021/03/Menina-jovem-aparentemente-se-consultando-com-uma-psicologa-ou-pedagoga-1024x683.jpg" />
       </ProductMarketingS>
-      <ProductMarketingS border="bot"></ProductMarketingS>
+      <ProductMarketingS ref={ref} border="bot"></ProductMarketingS>
     </>
   );
 }
