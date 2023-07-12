@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const BannerS = styled.div`
   width: 100%;
-  height: 100px;
+  height: 300px;
   background-color: ${blue};
   display: flex;
   align-items: center;

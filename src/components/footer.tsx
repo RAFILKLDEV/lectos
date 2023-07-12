@@ -3,7 +3,7 @@ import { BannerInfo, BannerS } from "@/styles/bannerS";
 export function Footer() {
   return (
     <BannerS>
-      <BannerInfo>Atendimento Online ou Presencial</BannerInfo>
+      <BannerInfo>Atendimento Presencial e Online  </BannerInfo>
     </BannerS>
   );
 }

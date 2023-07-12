@@ -1,4 +1,5 @@
 import { Caroussel } from "@/components/caroussel";
+import { Faq } from "@/components/faq";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Menu } from "@/components/menu";
@@ -15,8 +16,9 @@ export default function Home() {
       <GlobalStyle />
       <Header />
       <Menu />
-      <Caroussel />
-      <ProductsHome />
+      <Faq />
+      {/* <Caroussel />
+      <ProductsHome /> */}
       <Footer />
     </>
   );
