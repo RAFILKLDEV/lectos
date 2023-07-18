@@ -16,9 +16,9 @@ export default function Home() {
       <GlobalStyle />
       <Header />
       <Menu />
+      <Caroussel />
       <Faq />
-      {/* <Caroussel />
-      <ProductsHome /> */}
+      {/* <ProductsHome /> */}
       <Footer />
     </>
   );

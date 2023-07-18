@@ -40,8 +40,8 @@ export function Caroussel() {
   return (
     <CarousselS>
       <CarouselImgs></CarouselImgs>
-      {/* <CarousselArrowRight>{">"}</CarousselArrowRight>
-      <CarousselArrowLeft>{"<"}</CarousselArrowLeft> */}
+      <CarousselArrowRight>{">"}</CarousselArrowRight>
+      <CarousselArrowLeft>{"<"}</CarousselArrowLeft>
     </CarousselS>
   );
 }

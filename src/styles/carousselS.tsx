@@ -1,5 +1,6 @@
 "use cli";
 
+import { blue } from "@/colors";
 import styled from "styled-components";
 
 export const CarousselS = styled.div`
@@ -9,6 +10,7 @@ export const CarousselS = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-bottom: 20px ${blue} solid;
 `;
 
 export const CarousselArrowLeft = styled.button`
@@ -37,7 +39,7 @@ export const CarousselArrowRight = styled.button`
 
 export const CarousselImg = styled.img`
   height: 500px;
-  width: 888px;
+  width: 100%;
   animation-name: transition;
   animation-duration: 1s;
 
