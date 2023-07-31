@@ -4,31 +4,22 @@ import { blue, yellow } from "@/colors";
 import styled from "styled-components";
 
 export const BannerS = styled.div`
-  width: 100%;
-  height: 300px;
   background-color: ${blue};
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  flex-direction: column;
+  gap: 20px;
   clip-path: polygon(
-    50% 19%,
-    64% 22%,
-    78% 26%,
-    90% 30%,
-    100% 35%,
-    100% 100%,
-    0 100%,
-    0 14%,
-    18% 15%,
-    35% 16%
+    62% 5%, 72% 6%, 90% 9%, 100% 11%, 100% 100%, 50% 100%, 0 100%, 0 0, 14% 1%, 39% 3%
   );
+  padding: 20px 0px 70px;
 `;
 
 export const BannerInfo = styled.div`
-  padding: 0px;
   font-size: 22px;
   color: white;
+  margin-top: 30px;
 `;
 
 export const BannerButton = styled.div`
@@ -45,3 +36,23 @@ export const BannerButton = styled.div`
   color: white;
   margin-top: 10px;
 `;
+
+export const BannerText = styled.div`
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+`
+
+export const BannerContainer = styled.div`
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+  gap: 100px;
+`
+export const BannerContext = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+`
+

@@ -9,7 +9,7 @@ export const CardsS = styled.div`
   display: flex;
   justify-content: center;
   gap: 60px;
-  padding: 50px 0px;
+  padding: 0px 0px;
 `;
 
 export const Card = styled.div`
@@ -39,6 +39,11 @@ export const CardImg2 = styled(CardImg1)`
 `;
 
 export const CardImg3 = styled(CardImg1)`
+  clip-path: polygon(100% 0, 100% 90%, 35% 100%, 0 85%, 0 0);
+  background-color: ${yellow};
+`;
+
+export const CardImg4 = styled(CardImg1)`
   clip-path: polygon(100% 0, 100% 90%, 35% 100%, 0 85%, 0 0);
   background-color: ${yellow};
 `;

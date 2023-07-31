@@ -1,4 +1,5 @@
 import { Caroussel } from "@/components/caroussel";
+import { CardsTeste } from "@/components/componenteTest";
 import { Faq } from "@/components/faq";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
@@ -19,6 +20,7 @@ export default function Home() {
       <Caroussel />
       <Faq />
       {/* <ProductsHome /> */}
+      <CardsTeste></CardsTeste>
       <Footer />
     </>
   );

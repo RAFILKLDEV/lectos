@@ -4,6 +4,8 @@ import styled from "styled-components";
 export const ProductsHomeS = styled.div`
   display: flex;
   justify-content: center;
+  padding: 100px;
+  height: 100vh;
 `;
 
 export const ProductsHomeText = styled.p`
