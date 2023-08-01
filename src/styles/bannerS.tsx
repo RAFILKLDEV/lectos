@@ -41,18 +41,19 @@ export const BannerText = styled.div`
   color: white;
   font-size: 16px;
   font-weight: 400;
+  text-align: left;
 `
 
 export const BannerContainer = styled.div`
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 200px 300px 200px;
   justify-content: center;
   gap: 100px;
 `
 export const BannerContext = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   gap: 20px;
 `
 

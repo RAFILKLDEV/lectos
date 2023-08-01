@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <script src="https://kit.fontawesome.com/95597c6e4a.js"></script>
         <title>Lectos - Laboratório de Aprendizagem</title>
       </Head>
       <GlobalStyle />
