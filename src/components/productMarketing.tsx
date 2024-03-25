@@ -5,7 +5,6 @@ import {
   ProductMarketingText,
   ProductMarketingTitle,
 } from "@/styles/productMarketingS";
-import { useRef } from "react";
 
 export function ProductMarketing() {
 

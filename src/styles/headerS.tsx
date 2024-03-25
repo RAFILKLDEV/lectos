@@ -25,7 +25,7 @@ export const HeaderBar = styled.div`
 
 export const HeaderLink = styled.button`
   color: ${blue};
-  font-size: 20px;
+  font-size: 18px;
   height: 30px;
   background-color: inherit;
   border: none;

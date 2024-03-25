@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const ProductMarketingS = styled.div`
   height: 400px;
-  width: 95%;
-  background-color: ${blue};
+  /* width: 95%; */
+  background-color: rgb(63, 150, 179);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,13 +12,13 @@ export const ProductMarketingS = styled.div`
   gap: 50px;
   color: white;
   margin: 50px 0px;
-  border-radius: ${({ border }: { border: string }) => {
+  /* border-radius: ${({ border }: { border: string }) => {
     if (border === "top") {
       return "0px 50px 0px 0px";
     } else if (border === "bot") {
       return "0px 50px 50px 0px";
     }
-  }};
+  }}; */
 `;
 
 export const ProductMarketingBar = styled.div`

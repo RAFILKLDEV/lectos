@@ -5,7 +5,7 @@ import { blue } from "@/colors";
 
 export const MenuS = styled.div`
   background-color: ${blue};
-  height: 80px;
+  height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ export const MenuS = styled.div`
 
 export const MenuButton = styled.button`
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   height: 30px;
   background-color: inherit;
   border: none;
