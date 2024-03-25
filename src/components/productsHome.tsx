@@ -1,7 +1,5 @@
-import styled from "styled-components";
 import { Cards } from "./cards";
 import { Title } from "./title";
-import { TitleSubTitle } from "@/styles/TitleS";
 import { ProductsHomeS, ProductsHomeText } from "@/styles/productsHomeS";
 
 export function ProductsHome() {
@@ -10,8 +8,9 @@ export function ProductsHome() {
       <ProductsHomeS>
         <Title />
         <ProductsHomeText>
-          A Lectos é inovadora, dedicada a promover a excelência educacional
-          por meio de soluções especializadas.
+          Centro Educacional, com Programas Personalizados / para
+          desenvolvimento de habilidades acadêmicas, socioemocionais e
+          tecnológicas / em crianças, adolescentes e adultos.
         </ProductsHomeText>
       </ProductsHomeS>
       <ProductsHomeS>

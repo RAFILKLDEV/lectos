@@ -11,7 +11,7 @@ export const ProductsHomeText = styled.p`
   position: relative;
   left: -200px;
   top: 140px;
-  width: 500px;
+  width: 800px;
   margin: 0px;
   color: ${blue};
   text-decoration: underline;
